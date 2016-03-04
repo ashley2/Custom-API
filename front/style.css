@@ -1,0 +1,70 @@
+* {
+  text-align: center;
+  font-family: 'Raleway', sans-serif; }
+
+body {
+  background-color: #33c8b5; }
+
+#header {
+  font-size: 40px;
+  margin-bottom: 30px; }
+
+#sentenceInfo {
+  background-color: white;
+  display: inline-block;
+  margin: 20px;
+  width: 800px;
+  height: 200px;
+  box-shadow: 10px 10px 20px black; }
+
+#emailInfo {
+  background-color: white;
+  display: inline-block;
+  margin: 20px;
+  width: 800px;
+  height: 200px;
+  box-shadow: 10px 10px 20px black; }
+
+#birthdayInfo {
+  background-color: white;
+  display: inline-block;
+  margin: 20px;
+  width: 800px;
+  height: 200px;
+  box-shadow: 10px 10px 20px black; }
+
+#squareInfo {
+  background-color: white;
+  display: inline-block;
+  margin: 20px;
+  width: 800px;
+  height: 200px;
+  box-shadow: 10px 10px 20px black; }
+
+#sumInfo {
+  background-color: white;
+  display: inline-block;
+  margin: 20px;
+  width: 800px;
+  height: 200px;
+  box-shadow: 10px 10px 20px black; }
+
+button {
+  width: 80px;
+  height: 40px;
+  color: #fff;
+  background-color: #6410c8;
+  text-shadow: -1px 1px #6410c8;
+  border: none;
+  transition: background-color 1s ease; }
+
+button:hover {
+  background-color: #346392;
+  text-shadow: -1px 1px #346392; }
+
+button:active {
+  background-color: #4e94df;
+  text-shadow: -1px 1px #4e94df; }
+
+#birthday, #number1, #numbers, #emailInfo {
+  margin: 10px; }

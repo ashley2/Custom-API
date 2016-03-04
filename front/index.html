@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+  <link href='https://fonts.googleapis.com/css?family=Raleway:400,300' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+  <div id="header">Custom API</div>	
+
+
+
+  <div id="squareInfo">
+    <div id="squareDirections">To find the square of any number enter a number below! </div>
+    <input type="text" id="number1" placeholder="number">
+    <br>
+    <br>
+    <button id="squareButton">Submit</button>
+    <div id="answer"></div>
+  </div>
+
+
+  <div id="sumInfo">
+    <div id="sumDirections">To find the sum of any numbers enter numbers using a "/".  Ex: if I wanted to use the numbers 4, 2 & 3 I would enter: 4/2/3. </div>
+    <input type="text" id="numbers" placeholder="numbers">
+    <br>
+    <br>
+    <button id="sumButton">Submit</button>
+    <br>
+    <br>
+    <div id="answer2"></div>
+  </div>
+
+  <div id="sentenceInfo">
+    <div id="sentenceDirections">Enter a sentence below to find the letter count, word count, and average word count of that sentence! </div>
+    <textarea name="text" id="sentenceBox" cols="30" rows="5"></textarea>
+    <br>
+    <br>
+    <button id="sentenceButton">Submit</button>
+    <br>
+    <br>
+    <div id="sentenceResp"></div>
+  </div>
+
+
+
+  <div id="emailInfo">
+    <div id="emailDirections">To see your Gravitar picture enter your registered Gravitar email below! If you do not have an account, please go make one on the Gravitar website </div>
+    <input type="text" id="email" placeholder="email">
+    <br>
+    <br>
+    <button id="emailButton">Submit</button>
+    <img id="image"></img>
+  </div>
+
+  <div id="birthdayInfo">
+    <div id="sumDirections">Enter your birthday below to see you age and what day you were born! </div>
+    <input type="date" id="birthday">
+    <br>
+    <br>
+    <button id="birthdayButton">Submit</button>
+    <div id="age"></div>
+  </div>
+
+
+  <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+  <script src="main.js"></script>
+
+</body>
+</html>
